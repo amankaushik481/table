@@ -3,5 +3,12 @@ Technologies Used = HTML/CSS/JS
 Some Assumptions
 1. Only one page to be shown.
 
+Challenges I faced
+1. Getting the API data was easy.
+2. Displaying the data in the form of a table was aslo easy.
+3. Sorting the data was a little tricky. As the data was coming from an API and stored using JS. It was not that easy to do. But I succeeded in sorting the names and gender
+(able to sort text but not numbers).
+
+
 Issues yet to solve
 1. There is some issue with sorting the number, it reads the first number only, still trying to find another solution.
