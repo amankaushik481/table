@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- TITILLIUM WEB FONT -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+
+  <body>
+    <div id="main-div">
+      <img
+        src="https://c4.wallpaperflare.com/wallpaper/1005/778/557/star-wars-darth-vader-emperor-palpatine-stormtrooper-wallpaper-preview.jpg"
+        alt="Star Wars"
+        class="starwars-img"
+      />
+      <input
+        type="text"
+        id="myInput"
+        onkeyup="myFunction()"
+        placeholder="Search for names.."
+        title="Type in a name"
+      />
+      <!-- TABLE -->
+      <table id="mytable" cellspacing="0px">
+        <tr>
+          <!-- sortTable is a function to sort the table -->
+          <th onclick="sortTable(0)">Name</th>
+          <th>Icon</th>
+          <th onclick="sortTable(2)">Gender</th>
+          <th onclick="sortTable(3)">Height</th>
+          <th onclick="sort(4)">Mass</th>
+          <th onclick="sortTable(5)">Skin Color</th>
+          <th onclick="sortTable(6)">Birth</th>
+          <th onclick="sortTable(7)">Homeworld</th>
+          <th onclick="sortTable(8)">Films</th>
+        </tr>
+      </table>
+    </div>
+
+    <!-- JAVASCRIPT FILE -->
+    <script src="./index.js"></script>
+  </body>
+</html>
